@@ -1,4 +1,3 @@
-
 import time
 
 
@@ -61,7 +60,6 @@ def render(grid):
 
 
 def is_walkable(tile):
-    """Return True if the pusher can step onto this tile."""
     return tile in (FLOOR, GOAL)
 
 
